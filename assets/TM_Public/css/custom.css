@@ -1,0 +1,265 @@
+
+#intro,
+#first{
+/*height: 500px;
+max-width: 100%;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;*/
+	},
+#tentang,
+#daftar_menu,
+#galeri{
+height: 400px;
+}
+#intro{
+padding-top: 0;
+}
+#tentang,
+#daftar_menu,
+#galeri{
+/*border-top: 1px solid #ccc;
+padding-top: 150px;*/
+}
+#menu{
+	background-color: #336ca6;
+}
+
+.navigation-link{
+	font-size: 25px;
+}
+
+.navigation-link > a{
+}
+
+.bgn-img{
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    margin-top: -20px;
+    max-width: 100%;
+    height: 675px;
+    overflow: visible;
+}
+
+.title-centering{
+	margin-top: 60px;
+}
+
+/*.title-area{
+    margin: auto;
+    padding-top: 6%;
+    border-radius: 25px;
+    background: rgba(0,0,0,0.5);
+    width: 45%;
+}
+
+.title-area:hover{
+    animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    -webkit-animation: fadein 2s;
+    -o-animation: fadein 2s; 
+}
+*/
+
+.line-divider{
+margin: auto;
+width: 90%;
+border-top: double #C0C0C0;
+margin-top: 70px;
+margin-bottom: 20px;
+}
+
+.konten-blok{
+    padding-top: 6%;
+    border-radius: 25px;
+    background: rgba(0,0,0,0.7);
+    width: 70%;
+    height: 275px;
+    margin-bottom: 20px;    
+    border-style:outset;
+}
+
+.konten-blok-infrsv{
+    width: 70%;
+    height: 150px;
+    margin-bottom: 20px; 
+    border-style:none none solid none;
+    border-color:   #DCDCDC;
+    border-width: 0.1em;
+}
+
+.konten-line-divider{
+    border-style:none none solid none;
+    border-color:   #DCDCDC;
+    border-width: 0.1em;    
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    width: 60%;  
+}
+
+.transparent-input {
+   background-color: rgba(0, 0, 0, 0);
+   border:none;
+   color:#C0C0C0;
+}
+
+ #map {
+    width: 600px;
+    height: 450px;
+    background-color: #CCC;
+  }
+
+.codrops-header {
+    margin: 0 auto;
+    padding: 2em;
+    background: rgba(0,0,0,0.01);
+    text-align: center;
+}
+
+.codrops-header h1 {
+    margin: 0;
+    font-weight: 300;
+    font-size: 5em;
+    color: #fff;
+    line-height: 1.3;
+}
+
+.codrops-header h2 {
+    margin: 0;
+    font-weight: 300;
+    font-size: 2.5em;
+    color: #fff;
+    line-height: 1.3;
+}
+
+.codrops-header h3 {
+    z-index: -1;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: 300;
+    font-size: 2em;
+    color: #000;
+    line-height: 1.3;
+}
+
+.codrops-header p {
+    z-index: -2;
+    letter-spacing: 1px;
+    line-height: 25px;
+    margin: 0;
+    font-size: 1em;
+    color: #000;
+}
+.codrops-header .konten-infrsr{
+    z-index: -2;
+    font-size: 0.85em;
+    letter-spacing: 0.5px;
+}
+
+
+
+.codrops-header span {
+    display: block;
+    /*padding: 0 0 0.6em 0.1em;*/
+    font-size: 60%;
+    opacity: 0.7;
+}
+
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 8px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(100,0,0,0.7); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(255,0,0,0.4); 
+}
+
+.vcenter{
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.backgrnd_section{
+    /*background-attachment: scroll;*/
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    max-width: 100%;
+    height: 675px;
+    overflow: visible;
+}
+
+.backgrnd_section2{
+    /*background-size: cover;*/
+
+    background-repeat: repeat;
+    min-width: 100%;
+    height: 2750px;
+    overflow: visible;
+}
+
+
+#hamburger {
+   /*border: 1px solid #999;*/
+   display: block;
+   width: 45px;
+   padding: 5px 10px;
+}
+#hamburger span {
+   background: #2f4f4f;
+   display: block;
+   height: 3px;
+   margin: 5px 0;
+}
+
+html.mm-opened #hamburger span.top-bar {
+   transform: rotate( 45deg );
+   top: 7px;
+}
+html.mm-opened #hamburger span.middle-bar {
+   opacity: 0;
+}
+html.mm-opened #hamburger span.bottom-bar {
+   transform: rotate( -45deg );
+   top: -7px;
+}
+
+#hamburger {
+   overflow: hidden;
+}
+#hamburger span {
+   position: relative;
+   transform: rotate( 0 );
+   top: 0;
+   left: 0;
+   opacity: 1;
+
+   transition: none 0.5s ease;
+   transition-property: transform, top, left, opacity;
+}
+
+html.mm-opened #hamburger span.middle-bar {
+   left: -40px;
+}
