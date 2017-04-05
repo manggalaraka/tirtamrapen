@@ -11,7 +11,7 @@ Halaman Setting Frontend bisa diakses melalui http://localhost/tirtamrapen/
 <h3> Database </h3>
 * untuk database bbisa diimport melalui file tirtamrapen.sql
  
- </br>
+ </br> </br>
  
 <h3> Previlege </h3>
 * akses username=manggala dan pass=12345
