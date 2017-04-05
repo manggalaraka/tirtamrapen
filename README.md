@@ -1,4 +1,4 @@
-Merupakan tampilan front end dari rumah makan tirta mrapen
+Merupakan tampilan front end dari rumah makan tirtamrapen yang dibuat dengan menggunakan framework codeigniter
 
 Halaman tampilan Frontend bisa diakses melalui http://localhost/tirtamrapen/home
 
